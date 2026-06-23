@@ -4,21 +4,13 @@ function HeroSection() {
   return (
     <main>
       <section>
-        <h1><center>Smart Company Management System</center></h1>
+        <h4><center>Invoice & Expense Management System</center></h4>
 
-        <p text-align="center">
-          This system helps manage employees, roles, tasks, and company activities
-          in a simple, organized, and efficient way.
+        <p>
+          A simple platform to manage invoices, expenses, and company operations efficiently.
         </p>
 
-              <button
-        style={{
-          padding: "10px 20px",
-          cursor: "pointer",
-        }}
-      >
-        Get Started
-      </button>
+        <a href="#">Get Started</a>
       </section>
     </main>
   );
